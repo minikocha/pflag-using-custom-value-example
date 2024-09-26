@@ -1,0 +1,8 @@
+user:
+    id: 999
+    name: Jone Doe
+users:
+    - Id: 101
+      Name: Jone Doe
+    - Id: 102
+      Name: Jane Doe
