@@ -44,7 +44,7 @@ var rootCmd = &cobra.Command{
 
 			*users.value = Merge(*users.value, tmp)
 
-			viper.Set("users", users.value)
+			viper.Set("users", *users.value)
 		} else {
 			if err := viper.UnmarshalKey("users", &users.value); err != nil {
 				panic(err)
