@@ -14,7 +14,7 @@ type User struct {
 
 var (
 	user  = newUserValue(0, "")
-	users = newUserSliceValue([]User{{}})
+	users = newUserSliceValue([]User{})
 )
 
 var rootCmd = &cobra.Command{
